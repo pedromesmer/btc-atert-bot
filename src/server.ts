@@ -11,7 +11,7 @@ const webScraping = new WebScrapingBTC();
 
 bot.start(async ctx => {
   ctx.reply('Bem vindo ao BENDER');
-  ctx.reply('Vou te avisar as alterações do BTC a cada U$ 5000');
+  ctx.reply('Vou te avisar as alterações do BTC a cada U$ 1000 ou R$ 5000');
 
   console.log('chat ID: ', ctx.message.chat.id);
 });
